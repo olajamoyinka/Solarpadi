@@ -343,8 +343,332 @@ body {
 
 .searching-add {
     display: flex;
-    margin-top: -240px;
-    margin-left: -70px;
+    margin-top: -243px;
+    margin-left: -75px;
     background: none;
     border: none;
+    height: 57px;
+    width: 57px;
+}
+
+.border-add-itmes {
+    display: flex;
+    width: 610px;
+    height: 131.385px;
+    padding: 45px 32.09px 44.475px 32.598px;
+    justify-content: center;
+    align-items: center;
+    gap: 378.274px;
+    flex-shrink: 0;
+    border-radius: 6.256px;
+    margin-bottom: 100px;
+    background: rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(27.37179183959961px);
+}
+
+.text-border-add-items {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25.026px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.checkbox-border-add-items {
+    width: 41.91px;
+    height: 41.91px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #AAA4A4;
+}
+
+.how-long {
+    color: #FFCC29;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.do-you {
+    width: 850px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.charging {
+    display: inline-flex;
+    gap: 50px;
+}
+
+.container-charge {
+    width: 1121px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 6.905px;
+    border: 1.726px solid #FFCC29;
+    background: rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(30.208332061767578px);
+    display: flex;
+    padding: 10px 20px;
+}
+
+.container-charging {
+    display: inline-block;
+}
+
+.choose-time {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12.988px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.charge-range {
+    width: 1088px;
+    height: 19px;
+    flex-shrink: 0;
+    background: #C5C1B6;
+    color: #FFCC29;
+}
+
+.charge-time {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 160px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 150px;
+}
+
+.container-charge-count {
+    display: inline-block;
+    width: 86.31px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 6.905px;
+    border: 1.726px solid #FFCC29;
+    background: rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(30.208332061767578px);
+}
+
+.time-select {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 59.554px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.time-select-hrs {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 34.524px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -30px;
+}
+
+.charge-batterries {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.batteries {
+    width: 850px;
+    height: 261px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.how {
+    color: #FFCC29;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.border-charge-batteries {
+    display: flex;
+    height: 110px;
+    padding: 41.907px 56.175px 40.093px 56.368px;
+    justify-content: center;
+    align-items: center;
+    gap: 900.55px;
+    border-radius: 6.984px;
+    border: 1.746px solid #FFCC29;
+    background: rgba(0, 0, 0, 0.40);
+    margin-bottom: 60px;
+    backdrop-filter: blur(30.557044982910156px);
+}
+
+.text-border-charge-batteries {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 41.907px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+}
+
+.house-hold-items {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container-items-list {
+    margin-top: 150px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 300px;
+    margin-bottom: -150px;
+}
+
+.container-the-items {
+    display: flex;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.container-items-quantity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.015px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15.044px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quantity-number {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20.058px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.container-items-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.015px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15.044px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#middle {
+    margin-top: 700px;
+}
+
+.full-charge {}
+
+.duration {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 80px;
+}
+
+.charging-option {
+    margin-top: 80px;
+}
+
+.recommended-image {
+    width: 714px;
+    height: 448.126px;
+    border-radius: 20px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#cost {
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.container-cost-calculation {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 0 auto;
+}
+
+.cost-calculation {
+    width: 568px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.the-calculations {
+    width: 393px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 184.5%;
+    /* 36.9px */
+}
+
+.total-cost {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 184.5%;
 }
